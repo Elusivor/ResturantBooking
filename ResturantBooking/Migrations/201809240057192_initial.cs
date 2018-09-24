@@ -1,4 +1,4 @@
-namespace ResturantBooking.Migrations
+namespace ResturantBookingWebApp.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

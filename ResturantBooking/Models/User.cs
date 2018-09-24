@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ResturantBooking.Models
+namespace ResturantBookingWebApp.Models
 {
     public class User
     {

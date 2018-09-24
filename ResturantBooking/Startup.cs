@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(ResturantBooking.Startup))]
-namespace ResturantBooking
+[assembly: OwinStartupAttribute(typeof(ResturantBookingWebApp.Startup))]
+namespace ResturantBookingWebApp
 {
     public partial class Startup
     {

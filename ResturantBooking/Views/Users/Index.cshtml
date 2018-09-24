@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ResturantBooking.Models.User>
+﻿@model IEnumerable<ResturantBookingWebApp.Models.User>
 
 <table class="table table-striped">
     <thead>
@@ -9,7 +9,6 @@
         </tr>
     </thead>
     <tbody>
-
         @foreach (var user in Model)
         {
             <tr>
@@ -17,6 +16,5 @@
                 <td>@user.LastName</td>
                 <td>@user.ID</td>
             </tr>
-
         }
 </table>

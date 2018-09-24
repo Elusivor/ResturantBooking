@@ -6,9 +6,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using ResturantBooking.Models;
+using ResturantBookingWebApp.Models;
 
-namespace ResturantBooking.Controllers
+namespace ResturantBookingWebApp.Controllers
 {
     [Authorize]
     public class ManageController : Controller

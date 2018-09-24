@@ -10,9 +10,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using ResturantBooking.Models;
+using ResturantBookingWebApp.Models;
 
-namespace ResturantBooking
+namespace ResturantBookingWebApp
 {
     public class EmailService : IIdentityMessageService
     {
