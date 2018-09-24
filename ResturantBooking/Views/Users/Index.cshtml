@@ -1,0 +1,22 @@
+﻿@model IEnumerable<ResturantBooking.Models.User>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>ID</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Name</td>
+                <td>@user.LastName</td>
+                <td>@user.ID</td>
+            </tr>
+
+        }
+</table>
